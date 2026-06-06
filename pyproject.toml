@@ -1,0 +1,41 @@
+[project]
+name = "lab4"
+version = "0.2.0"
+description = "This is a CRUD compliant event booking cli for Fountain View Hall"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "typer>=0.26.7",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=lab4 --cov-report=term-missing --cov-report=html"
+log_cli = false
+log_level = "WARNING"
+filterwarnings = [
+    "ignore::ResourceWarning",
+]
+
+[tool.uv]
+package = true
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "lefthook>=2.1.9",
+    "pytest>=9.0.3",
+    "pytest-cov>=7.1.0",
+]
+
+[project.scripts]
+fvh-manager = "lab4.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lab4"]
