@@ -1,12 +1,13 @@
 import typer
 
-app = typer.Typer()
+app = typer.Typer() # initialize typer
 
 
 @app.command()
-def main():
+def store_in_db(word: str):
     pass
+    
 
 
 if __name__ == "__main__":
-    main()
+    app()

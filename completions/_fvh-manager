@@ -1,0 +1,9 @@
+
+#compdef fvh-manager
+
+_fvh_manager_completion() {
+  eval $(env _TYPER_COMPLETE_ARGS="${words[1,$CURRENT]}" _FVH_MANAGER_COMPLETE=complete_zsh fvh-manager)
+}
+
+compdef _fvh_manager_completion fvh-manager
+
