@@ -1,11 +1,11 @@
-# Plan for Fountain View Hall
+Plan for Fountain View Hall
 
-## Overview
+# Overview
 
 Fountain View Hall wants a program that tracks event attendance and projected revenue
 for multiple bookings.
 
-### Program Requirements
+## Program Requirements
 
 - Repeatedly prompt for event name, guest count, and estimated revenue
 - Continue until the user enters “done”
@@ -15,7 +15,7 @@ for multiple bookings.
 - Calculate the average guests per event
 - Determine the largest event
 
-### Business Rules
+## Business Rules
 
 - Pricing Rules
   - Large events receive a discount
@@ -26,11 +26,11 @@ for multiple bookings.
 
 ---
 
-## Planed Technology Usage
+# Planed Technology Usage
 
 I planned on using various technologies throughout this project some are very necessary others save time. Each technology will be categorized and described below:
 
-### Editing/Developer Tools
+## Editing/Developer Tools
 
 - Git and GitHub as a VCS (version control system). <sup>[1](#git)</sup>
 - [uv](https://docs.astral.sh/uv/) for package, project, and environment management.

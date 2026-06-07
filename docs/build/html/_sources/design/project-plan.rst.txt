@@ -1,5 +1,5 @@
 Plan for Fountain View Hall
-===========================
+
 
 Overview
 --------
@@ -9,7 +9,7 @@ for multiple bookings.
 
 
 Program Requirements
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 - Repeatedly prompt for event name, guest count, and estimated revenue
 - Continue until the user enters "done"
@@ -20,7 +20,7 @@ Program Requirements
 - Determine the largest event
 
 Business Rules
-~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 - Pricing Rules
 
