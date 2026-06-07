@@ -4,7 +4,7 @@ set -euo pipefail
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 DOCS_DIR="$PROJECT_ROOT/docs"
-DOCS_SOURCE="$DOCS_DIR/source"
+DOCS_SOURCE="$DOCS_DIR/.source"
 DOCS_BUILD="$DOCS_DIR/build"
 
 HTML_OUT="$DOCS_BUILD/html"
