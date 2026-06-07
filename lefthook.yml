@@ -12,5 +12,4 @@ pre-commit:
 pre-push:
   commands:
     build-docs:
-      glob: "docs/**/*.{rst,md,py}"
       run: scripts/build_docs.sh
