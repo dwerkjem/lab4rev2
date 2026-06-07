@@ -1,10 +1,10 @@
 # Fountain View Hall
 
-If you are viewing the markdown file visit the [home page](https://dwerkjem.github.io/lab4rev2/index.html) for better documentation
+You are viewing the markdown file visit the [home page](https://dwerkjem.github.io/lab4rev2/index.html) for better documentation.
 
 ## Running Project
 
-### Pre-run Install
+### Installation
 
 #### Requirements
 
