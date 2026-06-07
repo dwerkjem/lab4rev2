@@ -1,8 +1,10 @@
 # Fountain View Hall
 
+You are viewing the markdown file visit the [home page](https://dwerkjem.github.io/lab4rev2/index.html) for better documentation.
+
 ## Running Project
 
-### Pre-run Install
+### Installation
 
 #### Requirements
 
@@ -46,3 +48,6 @@ If you activate the completions you can use `fvh-manager` to run and `fvh-manage
 ### Tests
 
 I am using `pytest` to test most things run `uv run pytest` to launch the testing suite.
+
+## Pseudocode
+See [plan](docs/Plan.md) for details about the planing process 

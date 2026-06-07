@@ -8,3 +8,9 @@ pre-commit:
 
     pre-commit:
       run: uv run pre-commit run --all-files
+    
+pre-push:
+  commands:
+    build-docs:
+      glob: "docs/**/*.{rst,md,py}"
+      run: scripts/build_docs.sh
