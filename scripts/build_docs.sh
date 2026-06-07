@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
-PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)" # up one directory from script
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 DOCS_SOURCE="$PROJECT_ROOT/docs/source"
 DOCS_BUILD="$PROJECT_ROOT/docs/build"
