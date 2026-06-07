@@ -6,6 +6,8 @@ Fountain View Hall’s management tool `fvh-manager` is used to mange reservatio
 
 * [User Guide](user-guide.md)
   * [Installation](user-guide.md#installation)
+    * [Prerequisites](user-guide.md#prerequisites)
+    * [Activate Completion by Operating System and Shell](user-guide.md#activate-completion-by-operating-system-and-shell)
 * [References](references.md)
   * [`main()`](references.md#src.main.main)
 * [Design](design/index.md)
