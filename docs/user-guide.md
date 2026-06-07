@@ -74,7 +74,7 @@ fvh-manager <tab>
 
 Meet all previous [prerequisites](#prerequisites) and additional ones as specified bellow.
 
-Install developer dependencies:
+Install developer dependencies for python:
 
 ```bash
 uv sync --all-groups

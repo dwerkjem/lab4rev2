@@ -11,6 +11,8 @@ ReStructuredText guides were used as references for this project (see footnote).
 
 The `Typer home page <https://typer.tiangolo.com>`_ was used for learning about Typer and was integral to getting the CLI up.
 
+`SQLAlchemy <https://www.sqlalchemy.org>`_ is another tool I never used before. Its own `documentation <https://docs.sqlalchemy.org/en/20/orm/index.html>`_ was sufficient for my usage.
+
 .. rubric:: Footnotes
 
 .. [1] reStructuredText guides: `reStructuredText Markup Specification <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html>`__, `reStructuredText Primer <https://djdeangelis.github.io/reST-primer/index.html>`__, `reStructuredText Primer by Material for Sphinx <https://bashtage.github.io/sphinx-material/basics.html>`__, and `reStructuredText Primer by Sphinx <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`__ Note: they all are missing some info that others have except for `reStructuredText Markup Specification <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html>`__ which is very dense and lacks rendered examples.

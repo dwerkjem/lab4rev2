@@ -9,7 +9,7 @@ It defines some decorators ``@app.command`` see https://typer.tiangolo.com for d
 
 import typer
 
-app = typer.Typer(help="")  # initializes typer
+app = typer.Typer()  # initializes typer
 
 
 @app.command()

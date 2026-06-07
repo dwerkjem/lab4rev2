@@ -8,6 +8,7 @@ charset-normalizer==3.4.7
 coverage==7.14.1
 docutils==0.22.4
 furo==2025.12.19
+greenlet==3.5.1
 idna==3.18
 imagesize==2.0.0
 iniconfig==2.3.0
@@ -40,8 +41,8 @@ sphinxcontrib-htmlhelp==2.1.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
+sqlalchemy==2.0.50
 tabulate==0.10.0
-tinydb==4.8.2
 typer==0.26.7
 typing-extensions==4.15.0
 urllib3==2.7.0

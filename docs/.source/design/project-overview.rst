@@ -1,5 +1,5 @@
-Plan for Fountain View Hall
-
+Overview for Fountain View Hall
+===============================
 
 Overview
 --------
@@ -7,6 +7,7 @@ Overview
 Fountain View Hall wants a program that tracks event attendance and projected revenue
 for multiple bookings.
 
+.. _program-requirements:
 
 Program Requirements
 ~~~~~~~~~~~~~~~~~~~~
@@ -47,9 +48,18 @@ Editing/Developer Tools
 - `lefthook` as a Git hook manager.
 - `pre-commit` to run pre-commit scripts. [#scripts]_
 
-  - `ruff` for Python linting and formatting.
+  - `ruff` for Python linting and formatting running as a pre-commit script.
 
 - `Sphinx` to help build this beautiful documentation.
+- `pytest` as a testing suite.
+
+Python Packages
+~~~~~~~~~~~~~~~
+
+- `typer` for command line interface completions and argument parsing.
+- `SQLite` as a database [#SQLite]_
+- `SQLAlchemy` for object relational mapping (ORM)
+
 
 ----
 
@@ -57,3 +67,4 @@ Editing/Developer Tools
 
 ..  [#git] Go to the `project repo <https://github.com/dwerkjem/lab4rev2>`_ to see commit history.
 ..  [#scripts] All scripts (in scripts directory) are written for unix systems and use the bash language.
+..  [#SQLite] See SQLite's `home page <https://www.sqlite.org>`_ for more details.

@@ -7,5 +7,6 @@ The design process has been documented quite thoroughly but not all decisions ar
    :maxdepth: 4
    :caption: Contents:
 
-   project-plan
    used-references
+   project-overview
+   pseudocode
