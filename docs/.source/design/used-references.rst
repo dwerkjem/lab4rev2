@@ -9,7 +9,7 @@ ReStructuredText guides were used as references for this project (see footnote).
 
     I had zero rst experience before reading these guides they where very helpful.
 
-
+The `Typer home page <https://typer.tiangolo.com>`_ was used for learning about Typer and was integral to getting the CLI up
 
 .. rubric:: Footnotes
 

@@ -16,7 +16,6 @@ __pycache__/
 
 # OS/editor
 .DS_Store
-.vscode/
 .idea/
 
 # Sphinx build output
