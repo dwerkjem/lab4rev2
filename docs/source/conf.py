@@ -37,6 +37,10 @@ exclude_patterns = []
 html_theme = "furo"
 html_static_path = ["_static"]
 
+html_js_files = [
+    "open_external_links.js",
+]
+
 source_suffix = {
     ".rst": "restructuredtext",
     ".md": "markdown",

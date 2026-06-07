@@ -2,16 +2,16 @@ Plan for Fountain View Hall
 ===========================
 
 Overview
-========
+--------
 
 Fountain View Hall wants a program that tracks event attendance and projected revenue
 for multiple bookings.
 
 Requirements
-------------
+~~~~~~~~~~~~
 
 Program Requirements
-~~~~~~~~~~~~~~~~~~~~
+********************
 
 - Repeatedly prompt for event name, guest count, and estimated revenue
 - Continue until the user enters "done"
@@ -22,7 +22,7 @@ Program Requirements
 - Determine the largest event
 
 Business Rules
-~~~~~~~~~~~~~~
+**************
 
 - Pricing Rules
 
@@ -37,18 +37,25 @@ Business Rules
 ----
 
 Planed Technology Usage
-=======================
+-----------------------
 
-I plan on using various technologies throughout this project some are very necessary others save time. Each technology will be categorized adn described bellow:
+I planned on using various technologies throughout this project some are very necessary others save time. Each technology will be categorized and described below:
 
 Editing/Developer Tools
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Here is a non-exhaustive list of technology used:
 
-- Git and GitHub [#git]_
-- 
+- `Git` and `GitHub` as a VCS (version control system). [#git]_
+- `uv <https://docs.astral.sh/uv/>`__ for package, project, and environment management.
+- `lefthook` as a Git hook manager.
+- `pre-commit` to run pre-commit scripts [#scripts]_
+
+
+
+----
 
 ..  rubric:: Footnotes
----
-..  [#git] you can go to the `project repo <https://github.com/dwerkjem/lab4rev2>`_ to see commit history
+
+..  [#git] Go to the `project repo <https://github.com/dwerkjem/lab4rev2>`_ to see commit history.
+..  [#scripts] All scripts (in scripts directory) are written for unix systems and use the bash language.
