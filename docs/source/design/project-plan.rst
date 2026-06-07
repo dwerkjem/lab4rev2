@@ -44,14 +44,14 @@ I planned on using various technologies throughout this project some are very ne
 Editing/Developer Tools
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Here is a non-exhaustive list of technology used:
-
 - `Git` and `GitHub` as a VCS (version control system). [#git]_
 - `uv <https://docs.astral.sh/uv/>`__ for package, project, and environment management.
 - `lefthook` as a Git hook manager.
-- `pre-commit` to run pre-commit scripts [#scripts]_
+- `pre-commit` to run pre-commit scripts. [#scripts]_
 
+  - `ruff` for Python linting and formatting.
 
+- `Sphinx` to help build this beautiful documentation.
 
 ----
 
