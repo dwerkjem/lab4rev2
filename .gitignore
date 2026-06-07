@@ -1,2 +1,20 @@
+# Sphinx
+docs/_build/
+_build/
+.doctrees/
+*.doctree
+
+# Python
 __pycache__/
-/docs/build/*/.doctrees/*.pickle
+*.py[cod]
+.venv/
+
+# Tool caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
