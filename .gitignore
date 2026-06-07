@@ -18,3 +18,18 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# Sphinx build output
+docs/build/
+
+# LaTeX artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.ilg
+*.ind
+*.idx
+*.log
+*.out
+*.toc
+*.synctex.gz
