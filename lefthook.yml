@@ -6,5 +6,8 @@ pre-commit:
     uv-pip-freeze:
       run: uv pip freeze --exclude-editable > requirements.txt && git add requirements.txt
 
+    generate-docs:
+      run: uv run pydoc-markdown --render-toc && git add docs/reference.md
+
     pre-commit:
       run: uv run pre-commit run --all-files

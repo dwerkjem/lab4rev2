@@ -46,3 +46,6 @@ If you activate the completions you can use `fvh-manager` to run and `fvh-manage
 ### Tests
 
 I am using `pytest` to test most things run `uv run pytest` to launch the testing suite.
+
+## Pseudocode
+See [plan](docs/Plan.md) for details about the planing process 

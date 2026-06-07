@@ -11,7 +11,7 @@ dependencies = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=lab4 --cov-report=term-missing --cov-report=html"
+addopts = "--cov=. --cov-report=term-missing --cov-report=html"
 log_cli = false
 log_level = "WARNING"
 filterwarnings = [
@@ -31,12 +31,17 @@ build-backend = "hatchling.build"
 [dependency-groups]
 dev = [
     "lefthook>=2.1.9",
+    "pydoc-markdown>=4.8.2",
     "pytest>=9.0.3",
     "pytest-cov>=7.1.0",
 ]
 
 [project.scripts]
-fvh-manager = "lab4.main:app"
+fvh-manager = "src.main:app"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/lab4"]
+packages = ["src"]
+
+[[tool.pydoc-markdown.loaders]]
+type = "python"
+search_path = [ "src" ]
