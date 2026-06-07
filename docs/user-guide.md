@@ -29,16 +29,25 @@ Make sure the `uv` command runs before running the program.
 
 If `uv --version` fails, use [this guide](https://docs.astral.sh/uv/#installation) to install uv.
 
+### Minimal Getting Started
+
+Make sure you run these commands from the project directory
+
+```bash
+uv sync
+```
+
+```bash
+uv run fvh-manager
+```
+
 ### Activate Completion by Operating System and Shell
 
 If desired, you can activate shell completions by running one of the following commands, depending on your operating system and shell:
 
-| Operating system   | Shell      | Completion file                | Activation command                    |
-|--------------------|------------|--------------------------------|---------------------------------------|
-| Linux              | Bash       | `completions/fvh-manager.bash` | `source completions/fvh-manager.bash` |
-| Linux              | Zsh        | `completions/_fvh-manager`     | `source completions/_fvh-manager`     |
-| Linux              | Fish       | `completions/fvh-manager.fish` | `source completions/fvh-manager.fish` |
-| macOS              | Bash       | `completions/fvh-manager.bash` | `source completions/fvh-manager.bash` |
-| macOS              | Zsh        | `completions/_fvh-manager`     | `source completions/_fvh-manager`     |
-| macOS              | Fish       | `completions/fvh-manager.fish` | `source completions/fvh-manager.fish` |
-| Windows            | PowerShell | `completions/fvh-manager.ps1`  | `. .\completions\fvh-manager.ps1`     |
+| Operating system   | Shell      | Activation command                    |
+|--------------------|------------|---------------------------------------|
+| Linux/macOS        | Bash       | `source completions/fvh-manager.bash` |
+| Linux/macOS        | Zsh        | `source completions/_fvh-manager`     |
+| Linux/macOS        | Fish       | `source completions/fvh-manager.fish` |
+| Windows            | PowerShell | `. .\completions\fvh-manager.ps1`     |

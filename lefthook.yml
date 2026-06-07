@@ -8,9 +8,3 @@ pre-commit:
 
     pre-commit:
       run: uv run pre-commit run --all-files
-
-    build-docs:
-      run: scripts/build_docs.sh
-      glob: "docs/*.rst"
-
-      

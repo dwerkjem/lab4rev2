@@ -33,6 +33,20 @@ Not:
 
 If ``uv --version`` fails, use `this guide <https://docs.astral.sh/uv/#installation>`__ to install uv.
 
+Minimal Getting Started
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Make sure you run these commands from the project directory
+
+.. code:: bash
+
+    uv sync
+
+.. code:: bash
+
+    uv run fvh-manager
+
+
 Activate Completion by Operating System and Shell
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -43,33 +57,16 @@ If desired, you can activate shell completions by running one of the following c
 
     * - Operating system
       - Shell
-      - Completion file
       - Activation command
-    * - Linux
+    * - Linux/macOS
       - Bash
-      - ``completions/fvh-manager.bash``
       - ``source completions/fvh-manager.bash``
-    * - Linux
+    * - Linux/macOS
       - Zsh
-      - ``completions/_fvh-manager``
       - ``source completions/_fvh-manager``
-    * - Linux
+    * - Linux/macOS
       - Fish
-      - ``completions/fvh-manager.fish``
-      - ``source completions/fvh-manager.fish``
-    * - macOS
-      - Bash
-      - ``completions/fvh-manager.bash``
-      - ``source completions/fvh-manager.bash``
-    * - macOS
-      - Zsh
-      - ``completions/_fvh-manager``
-      - ``source completions/_fvh-manager``
-    * - macOS
-      - Fish
-      - ``completions/fvh-manager.fish``
       - ``source completions/fvh-manager.fish``
     * - Windows
       - PowerShell
-      - ``completions/fvh-manager.ps1``
       - ``. .\completions\fvh-manager.ps1``
