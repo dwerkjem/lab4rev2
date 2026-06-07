@@ -1,5 +1,5 @@
 References
-=============
+==========
 
 .. automodule:: src.main
    :members:

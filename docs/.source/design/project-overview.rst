@@ -35,10 +35,10 @@ Business Rules
 
 ----
 
-Planed Technology Usage
------------------------
+Planned Technology Usage
+------------------------
 
-I planned on using various technologies throughout this project some are very necessary others save time. Each technology will be categorized and described below:
+I intended to use various technologies throughout this project; some are very necessary, and others save time. Each technology will be categorized and described below:
 
 Editing/Developer Tools
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,14 +57,13 @@ Python Packages
 ~~~~~~~~~~~~~~~
 
 - `typer` for command line interface completions and argument parsing.
-- `SQLite` as a database [#SQLite]_
-- `SQLAlchemy` for object relational mapping (ORM)
-
+- `SQLite3` as a database [#SQLite]_
+- `SQLAlchemy` for object-relational mapping (ORM)
 
 ----
 
 ..  rubric:: Footnotes
 
 ..  [#git] Go to the `project repo <https://github.com/dwerkjem/lab4rev2>`_ to see commit history.
-..  [#scripts] All scripts (in scripts directory) are written for unix systems and use the bash language.
+..  [#scripts] All scripts (in the scripts directory) are written for Unix systems and use the bash language.
 ..  [#SQLite] See SQLite's `home page <https://www.sqlite.org>`_ for more details.
