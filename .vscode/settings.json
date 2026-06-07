@@ -4,6 +4,7 @@
         "Neilson",
         "pysqlite",
         "pytest",
+        "rtype",
         "tinydb",
         "Typer"
     ]

@@ -28,9 +28,9 @@ for multiple bookings.
 
 ---
 
-## Planed Technology Usage
+## Planned Technology Usage
 
-I planned on using various technologies throughout this project some are very necessary others save time. Each technology will be categorized and described below:
+I intended to use various technologies throughout this project; some are very necessary, and others save time. Each technology will be categorized and described below:
 
 ### Editing/Developer Tools
 
@@ -45,13 +45,13 @@ I planned on using various technologies throughout this project some are very ne
 ### Python Packages
 
 - typer for command line interface completions and argument parsing.
-- SQLite as a database <sup>[3](#sqlite)</sup>
-- SQLAlchemy for object relational mapping (ORM)
+- SQLite3 as a database <sup>[3](#sqlite)</sup>
+- SQLAlchemy for object-relational mapping (ORM)
 
 ---
 
 ### Footnotes
 
 * <a id='git'>**[1]**</a> Go to the [project repo](https://github.com/dwerkjem/lab4rev2) to see commit history.
-* <a id='scripts'>**[2]**</a> All scripts (in scripts directory) are written for unix systems and use the bash language.
+* <a id='scripts'>**[2]**</a> All scripts (in the scripts directory) are written for Unix systems and use the bash language.
 * <a id='sqlite'>**[3]**</a> See SQLite’s [home page](https://www.sqlite.org) for more details.
