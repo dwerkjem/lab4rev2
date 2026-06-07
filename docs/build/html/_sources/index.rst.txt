@@ -1,12 +1,12 @@
 Fountain View Hall documentation
 ================================
 
-If 
+Fountain View Hall's management tool ``fvh-manager`` is used to mange reservations at Fountain View Hall
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
-   usage
+   user-guide
    references
    design/index

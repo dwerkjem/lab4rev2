@@ -5,9 +5,7 @@
 Fountain View Hall wants a program that tracks event attendance and projected revenue
 for multiple bookings.
 
-### Requirements
-
-#### Program Requirements
+### Program Requirements
 
 - Repeatedly prompt for event name, guest count, and estimated revenue
 - Continue until the user enters “done”
@@ -17,7 +15,7 @@ for multiple bookings.
 - Calculate the average guests per event
 - Determine the largest event
 
-#### Business Rules
+### Business Rules
 
 - Pricing Rules
   - Large events receive a discount
