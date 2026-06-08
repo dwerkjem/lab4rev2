@@ -18,10 +18,13 @@ from typing import Annotated
 
 import typer
 import sqlalchemy as sqla
+from prometheus_client import Counter, start_http_server
+
+APP_RUNS_TOTAL = Counter("app_runs_total", "Amount of times the project was ran.")
 
 app = typer.Typer()
 
-DB_PATH = Path("database/data.db").absolute()
+DB_PATH: Path = Path("database/data.db").absolute()
 
 
 def create_engine(in_memory: bool) -> sqla.engine.Engine:
@@ -69,10 +72,16 @@ def create_engine(in_memory: bool) -> sqla.engine.Engine:
 @app.command()
 def start_app(
     in_memory: Annotated[
-        bool, typer.Option(help="Wether to start with database in memory or not.")
+        bool, typer.Option(help="Whether to start with database in memory or not.")
     ] = False,
+    metrics_port: Annotated[
+        int,
+        typer.Option(help="Port to expose Prometheus metrics on."),
+    ] = 8000,
 ) -> None:
-    print(create_engine(in_memory))
+    start_http_server(metrics_port)
+    APP_RUNS_TOTAL.inc()  #
+    (create_engine(in_memory))
 
 
 if __name__ == "__main__":

@@ -5,6 +5,7 @@ description = "This is a CRUD compliant event booking cli for Fountain View Hall
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "prometheus-client>=0.25.0",
     "sqlalchemy>=2.0.50",
     "typer>=0.26.7",
 ]
