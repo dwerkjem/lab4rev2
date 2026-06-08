@@ -69,19 +69,25 @@ def create_engine(in_memory: bool) -> sqla.engine.Engine:
     return engine
 
 
+InMemoryOption = Annotated[
+    bool,
+    typer.Option(help="Whether to start with database in memory or not."),
+]
+
+MetricsPortOption = Annotated[
+    int,
+    typer.Option(help="Port to expose Prometheus metrics on."),
+]
+
+
 @app.command()
 def start_app(
-    in_memory: Annotated[
-        bool, typer.Option(help="Whether to start with database in memory or not.")
-    ] = False,
-    metrics_port: Annotated[
-        int,
-        typer.Option(help="Port to expose Prometheus metrics on."),
-    ] = 8000,
+    in_memory: InMemoryOption = False,
+    metrics_port: MetricsPortOption = 8000,
 ) -> None:
     start_http_server(metrics_port)
-    APP_RUNS_TOTAL.inc()  #
-    (create_engine(in_memory))
+    APP_RUNS_TOTAL.inc()
+    create_engine(in_memory)
 
 
 if __name__ == "__main__":
