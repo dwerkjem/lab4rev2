@@ -14,23 +14,17 @@ See Also:
 """
 
 from pathlib import Path
+from typing import Annotated
 
 import typer
-from sqlalchemy import create_engine
-from sqlalchemy.engine import Engine
+import sqlalchemy as sqla
 
 app = typer.Typer()
 
 DB_PATH = Path("database/data.db").absolute()
 
 
-@app.command(
-    help=(
-        "Use the `in_memory` flag to create the database only in memory "
-        "with no long-term persistence."
-    )
-)
-def create_engine_command(in_memory: bool = False) -> Engine:
+def create_engine(in_memory: bool) -> sqla.engine.Engine:
     """Create a SQLite database engine.
 
     Creates either an in-memory SQLite database or, by default, a persistent
@@ -65,11 +59,20 @@ def create_engine_command(in_memory: bool = False) -> Engine:
        https://typer.tiangolo.com/
     """
     if not in_memory:
-        engine = create_engine(f"sqlite+pysqlite:///{DB_PATH}")
+        engine = sqla.create_engine(f"sqlite+pysqlite:///{DB_PATH}")
     else:
-        engine = create_engine("sqlite+pysqlite:///:memory:")
+        engine = sqla.create_engine("sqlite+pysqlite:///:memory:")
 
     return engine
+
+
+@app.command()
+def start_app(
+    in_memory: Annotated[
+        bool, typer.Option(help="Wether to start with database in memory or not.")
+    ] = False,
+) -> None:
+    print(create_engine(in_memory))
 
 
 if __name__ == "__main__":

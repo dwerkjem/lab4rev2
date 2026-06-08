@@ -5,6 +5,7 @@
         "pysqlite",
         "pytest",
         "rtype",
+        "sqla",
         "tinydb",
         "Typer"
     ]
