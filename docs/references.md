@@ -15,7 +15,7 @@ commands.
 #### SEE ALSO
 [Typer documentation](https://typer.tiangolo.com/)
 
-### src.main.create_engine_command(in_memory=False)
+### src.main.create_engine(in_memory)
 
 Create a SQLite database engine.
 
@@ -51,3 +51,8 @@ sqlite+pysqlite:///:memory:
 #### SEE ALSO
 [SQLAlchemy Engine documentation](https://docs.sqlalchemy.org/en/20/core/connections.html#sqlalchemy.engine.Engine)
 [Typer documentation](https://typer.tiangolo.com/)
+
+### src.main.start_app(in_memory=False, metrics_port=8000)
+
+* **Return type:**
+  `None`
