@@ -72,6 +72,9 @@ def create_engine(in_memory: InMemoryOption) -> sqla.engine.Engine:
        https://typer.tiangolo.com/
     """
     if not in_memory:
+        DB_PATH.parent.mkdir(
+            parents=True, exist_ok=True
+        )  # ``exist_ok`` makes it so it won't err when the directory exists
         engine = sqla.create_engine(f"sqlite+pysqlite:///{DB_PATH}")
     else:
         engine = sqla.create_engine("sqlite+pysqlite:///:memory:")
@@ -84,15 +87,18 @@ def start_app(
     in_memory: InMemoryOption = False,
     metrics_port: MetricsPortOption = 8000,
 ) -> None:
-    """_summary_
+    """Start the CLI app.
 
-    Args:
-        in_memory (InMemoryOption, optional): _description_. Defaults to False.
-        metrics_port (MetricsPortOption, optional): _description_. Defaults to 8000.
+    :param in_memory: If ``True``, use an in-memory SQLite database.
+    :type in_memory: bool
+    :param metrics_port: Port for exposing Prometheus metrics. Defaults to 8000.
+    :type metrics_port: int
     """
     start_http_server(metrics_port)
     APP_RUNS_TOTAL.inc()
-    create_engine(in_memory)
+    engine = create_engine(in_memory)
+
+    _ = engine
 
 
 if __name__ == "__main__":

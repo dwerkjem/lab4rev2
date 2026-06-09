@@ -107,6 +107,24 @@ Python Libraries and Tooling
      - 8 June 2026
      - `Open source <https://typer.tiangolo.com/>`__
 
+Other
+-----
+
+.. list-table::
+   :widths: 5 35 20 20 20
+   :header-rows: 1
+
+   * - #
+     - Source
+     - Creator
+     - Date
+     - Link
+   * - 12
+     - **100% Test Coverage is a LIE, Here’s Why...**
+     - Sam Newman
+     - 8 June 2026
+     - `Open source <https://www.youtube.com/watch?v=p1xZ-Ni2t8Q>`__
+
 Detailed Source Cards
 ---------------------
 
@@ -201,6 +219,15 @@ Detailed Source Cards
    :Accessed: 8 June 2026
    :URL: `https://djdeangelis.github.io/reST-primer/index.html <https://djdeangelis.github.io/reST-primer/index.html>`__
 
+.. admonition:: 12. 100% Test Coverage is a LIE, Here’s Why...
+   :class: note
+
+   :Type: Video
+   :Author: Sam Newman
+   :Organization: Modern Software Engineering
+   :Accessed: 8 June 2026
+   :URL: `https://www.youtube.com/watch?v=p1xZ-Ni2t8Q <https://www.youtube.com/watch?v=p1xZ-Ni2t8Q>`__
+
 Compact Works Cited
 -------------------
 
@@ -225,4 +252,6 @@ Compact Works Cited
 #. Typer. *Typer*. Accessed 8 June 2026. `https://typer.tiangolo.com/ <https://typer.tiangolo.com/>`__
 
 #. reStructuredText Primer 0.0.1 Documentation. *Welcome to the reStructuredText Primer!*. Accessed 8 June 2026. `https://djdeangelis.github.io/reST-primer/index.html <https://djdeangelis.github.io/reST-primer/index.html>`__
+
+#. Sam Newman. *100% Test Coverage is a LIE, Here’s Why...*. Modern Software Engineering. Accessed 8 June 2026. `https://www.youtube.com/watch?v=p1xZ-Ni2t8Q <https://www.youtube.com/watch?v=p1xZ-Ni2t8Q>`__
 

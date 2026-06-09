@@ -32,3 +32,5 @@ docs/build/
 *.out
 *.toc
 *.synctex.gz
+
+.coverage
