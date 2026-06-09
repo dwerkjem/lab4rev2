@@ -93,7 +93,7 @@
   {
     "accessed": "8 June 2026",
     "author": "Sam Newman",
-    "category": "Other",
+    "category": "Software Testing and Code Coverage",
     "organization": "Modern Software Engineering",
     "source_type": "Video",
     "title": "100% Test Coverage is a LIE, Here’s Why...",
@@ -116,5 +116,67 @@
     "source_type": "Documentation",
     "title": "Prometheus Docs",
     "url": "https://prometheus.io/docs/introduction/overview/"
+  },
+  {
+    "url":"https://qa.tech/blog/why-100-test-coverage-isnt-the-goal",
+    "title": "Why 100% Test Coverage Isn’t the Goal",
+    "author": "Daniel Mauno Pettersson",
+    "accessed":"9 June 2026",
+    "category":"Software Testing and Code Coverage",
+    "date":"March 4, 2026",
+    "organization":"QA.tech"
+  },
+  {
+    "author": "Fowler, Martin",
+    "category": "Software Testing and Code Coverage",
+    "date": "17 Apr. 2012",
+    "organization": "Martin Fowler",
+    "source_type": "Article",
+    "title": "Test Coverage",
+    "url": "https://martinfowler.com/bliki/TestCoverage.html"
+  },
+  {
+    "author": "Inozemtseva, Laura; Holmes, Reid",
+    "category": "Software Testing and Code Coverage",
+    "date": "2014",
+    "organization": "ICSE 2014 / ACM",
+    "source_type": "Conference Paper",
+    "title": "Coverage Is Not Strongly Correlated with Test Suite Effectiveness",
+    "url": "https://dl.acm.org/doi/10.1145/2568225.2568271"
+  },
+  {
+    "author": "Kochhar, Pavneet Singh; Lo, David; Lawall, Julia; Nagappan, Nachiappan",
+    "category": "Software Testing and Code Coverage",
+    "date": "2017",
+    "organization": "IEEE Transactions on Reliability",
+    "source_type": "Journal Article",
+    "title": "Code Coverage and Postrelease Defects: A Large-Scale Study on Open Source Projects",
+    "url": "https://ink.library.smu.edu.sg/sis_research/3838/"
+  },
+  {
+    "author": "Hossain, Soneya Binta; Dwyer, Matthew B.",
+    "category": "Software Testing and Code Coverage",
+    "date": "2022",
+    "organization": "arXiv",
+    "source_type": "Research Survey",
+    "title": "A Brief Survey on Oracle-based Test Adequacy Metrics",
+    "url": "https://arxiv.org/abs/2212.06118"
+  },
+  {
+    "category": "Software Testing and Code Coverage",
+    "date": "2024",
+    "organization": "web.dev",
+    "source_type": "Technical Article",
+    "title": "Four Common Types of Code Coverage",
+    "url": "https://web.dev/articles/ta-code-coverage"
+  },
+  {
+    "author": "Kapelonis, Kostis",
+    "category": "Software Testing and Code Coverage",
+    "date": "2017",
+    "organization": "Codepipes",
+    "source_type": "Technical Article",
+    "title": "Getting 100% Code Coverage Doesn't Eliminate Bugs",
+    "url": "https://blog.codepipes.com/testing/code-coverage.html"
   }
 ]

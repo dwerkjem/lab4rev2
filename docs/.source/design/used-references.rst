@@ -9,6 +9,8 @@ Sources
 Quick Reference
 ---------------
 
+.. _sources-restructuredtext-and-sphinx:
+
 reStructuredText and Sphinx
 ---------------------------
 
@@ -41,6 +43,8 @@ reStructuredText and Sphinx
      - reStructuredText Primer 0.0.1 Documentation
      - 8 June 2026
      - `Open source <https://djdeangelis.github.io/reST-primer/index.html>`__
+
+.. _sources-opentelemetry-and-observability:
 
 OpenTelemetry and Observability
 -------------------------------
@@ -80,6 +84,8 @@ OpenTelemetry and Observability
      - 9 June 2026
      - `Open source <https://prometheus.io/docs/introduction/overview/>`__
 
+.. _sources-python-libraries-and-tooling:
+
 Python Libraries and Tooling
 ----------------------------
 
@@ -113,8 +119,10 @@ Python Libraries and Tooling
      - Mar 17, 2025
      - `Open source <https://www.youtube.com/watch?v=529LYDgRTgQ&t>`__
 
-Other
------
+.. _sources-software-testing-and-code-coverage:
+
+Software Testing and Code Coverage
+----------------------------------
 
 .. list-table::
    :widths: 5 35 20 20 20
@@ -130,6 +138,41 @@ Other
      - Sam Newman
      - 8 June 2026
      - `Open source <https://www.youtube.com/watch?v=p1xZ-Ni2t8Q>`__
+   * - 15
+     - **Why 100% Test Coverage Isn’t the Goal**
+     - Daniel Mauno Pettersson
+     - March 4, 2026
+     - `Open source <https://qa.tech/blog/why-100-test-coverage-isnt-the-goal>`__
+   * - 16
+     - **Test Coverage**
+     - Fowler, Martin
+     - 17 Apr. 2012
+     - `Open source <https://martinfowler.com/bliki/TestCoverage.html>`__
+   * - 17
+     - **Coverage Is Not Strongly Correlated with Test Suite Effectiveness**
+     - Inozemtseva, Laura; Holmes, Reid
+     - 2014
+     - `Open source <https://dl.acm.org/doi/10.1145/2568225.2568271>`__
+   * - 18
+     - **Code Coverage and Postrelease Defects: A Large-Scale Study on Open Source Projects**
+     - Kochhar, Pavneet Singh; Lo, David; Lawall, Julia; Nagappan, Nachiappan
+     - 2017
+     - `Open source <https://ink.library.smu.edu.sg/sis_research/3838/>`__
+   * - 19
+     - **A Brief Survey on Oracle-based Test Adequacy Metrics**
+     - Hossain, Soneya Binta; Dwyer, Matthew B.
+     - 2022
+     - `Open source <https://arxiv.org/abs/2212.06118>`__
+   * - 20
+     - **Four Common Types of Code Coverage**
+     - web.dev
+     - 2024
+     - `Open source <https://web.dev/articles/ta-code-coverage>`__
+   * - 21
+     - **Getting 100% Code Coverage Doesn't Eliminate Bugs**
+     - Kapelonis, Kostis
+     - 2017
+     - `Open source <https://blog.codepipes.com/testing/code-coverage.html>`__
 
 Detailed Source Cards
 ---------------------
@@ -252,6 +295,68 @@ Detailed Source Cards
    :Accessed: 9 June 2026
    :URL: `https://prometheus.io/docs/introduction/overview/ <https://prometheus.io/docs/introduction/overview/>`__
 
+.. admonition:: 15. Why 100% Test Coverage Isn’t the Goal
+   :class: note
+
+   :Author: Daniel Mauno Pettersson
+   :Organization: QA.tech
+   :Date: March 4, 2026
+   :Accessed: 9 June 2026
+   :URL: `https://qa.tech/blog/why-100-test-coverage-isnt-the-goal <https://qa.tech/blog/why-100-test-coverage-isnt-the-goal>`__
+
+.. admonition:: 16. Test Coverage
+   :class: note
+
+   :Type: Article
+   :Author: Fowler, Martin
+   :Organization: Martin Fowler
+   :Date: 17 Apr. 2012
+   :URL: `https://martinfowler.com/bliki/TestCoverage.html <https://martinfowler.com/bliki/TestCoverage.html>`__
+
+.. admonition:: 17. Coverage Is Not Strongly Correlated with Test Suite Effectiveness
+   :class: note
+
+   :Type: Conference Paper
+   :Author: Inozemtseva, Laura; Holmes, Reid
+   :Organization: ICSE 2014 / ACM
+   :Date: 2014
+   :URL: `https://dl.acm.org/doi/10.1145/2568225.2568271 <https://dl.acm.org/doi/10.1145/2568225.2568271>`__
+
+.. admonition:: 18. Code Coverage and Postrelease Defects: A Large-Scale Study on Open Source Projects
+   :class: note
+
+   :Type: Journal Article
+   :Author: Kochhar, Pavneet Singh; Lo, David; Lawall, Julia; Nagappan, Nachiappan
+   :Organization: IEEE Transactions on Reliability
+   :Date: 2017
+   :URL: `https://ink.library.smu.edu.sg/sis_research/3838/ <https://ink.library.smu.edu.sg/sis_research/3838/>`__
+
+.. admonition:: 19. A Brief Survey on Oracle-based Test Adequacy Metrics
+   :class: note
+
+   :Type: Research Survey
+   :Author: Hossain, Soneya Binta; Dwyer, Matthew B.
+   :Organization: arXiv
+   :Date: 2022
+   :URL: `https://arxiv.org/abs/2212.06118 <https://arxiv.org/abs/2212.06118>`__
+
+.. admonition:: 20. Four Common Types of Code Coverage
+   :class: note
+
+   :Type: Technical Article
+   :Organization: web.dev
+   :Date: 2024
+   :URL: `https://web.dev/articles/ta-code-coverage <https://web.dev/articles/ta-code-coverage>`__
+
+.. admonition:: 21. Getting 100% Code Coverage Doesn't Eliminate Bugs
+   :class: note
+
+   :Type: Technical Article
+   :Author: Kapelonis, Kostis
+   :Organization: Codepipes
+   :Date: 2017
+   :URL: `https://blog.codepipes.com/testing/code-coverage.html <https://blog.codepipes.com/testing/code-coverage.html>`__
+
 Compact Works Cited
 -------------------
 
@@ -282,4 +387,18 @@ Compact Works Cited
 #. Tim Ruscica. *SQLAlchemy Crash Course - Master Databases in Python*. NeuralNine. Mar 17, 2025. Accessed 9 June 2026. `https://www.youtube.com/watch?v=529LYDgRTgQ&t <https://www.youtube.com/watch?v=529LYDgRTgQ&t>`__
 
 #. The Linux Foundation. *Prometheus Docs*. Accessed 9 June 2026. `https://prometheus.io/docs/introduction/overview/ <https://prometheus.io/docs/introduction/overview/>`__
+
+#. Daniel Mauno Pettersson. *Why 100% Test Coverage Isn’t the Goal*. QA.tech. March 4, 2026. Accessed 9 June 2026. `https://qa.tech/blog/why-100-test-coverage-isnt-the-goal <https://qa.tech/blog/why-100-test-coverage-isnt-the-goal>`__
+
+#. Fowler, Martin. *Test Coverage*. Martin Fowler. 17 Apr. 2012. `https://martinfowler.com/bliki/TestCoverage.html <https://martinfowler.com/bliki/TestCoverage.html>`__
+
+#. Inozemtseva, Laura; Holmes, Reid. *Coverage Is Not Strongly Correlated with Test Suite Effectiveness*. ICSE 2014 / ACM. 2014. `https://dl.acm.org/doi/10.1145/2568225.2568271 <https://dl.acm.org/doi/10.1145/2568225.2568271>`__
+
+#. Kochhar, Pavneet Singh; Lo, David; Lawall, Julia; Nagappan, Nachiappan. *Code Coverage and Postrelease Defects: A Large-Scale Study on Open Source Projects*. IEEE Transactions on Reliability. 2017. `https://ink.library.smu.edu.sg/sis_research/3838/ <https://ink.library.smu.edu.sg/sis_research/3838/>`__
+
+#. Hossain, Soneya Binta; Dwyer, Matthew B.. *A Brief Survey on Oracle-based Test Adequacy Metrics*. arXiv. 2022. `https://arxiv.org/abs/2212.06118 <https://arxiv.org/abs/2212.06118>`__
+
+#. web.dev. *Four Common Types of Code Coverage*. 2024. `https://web.dev/articles/ta-code-coverage <https://web.dev/articles/ta-code-coverage>`__
+
+#. Kapelonis, Kostis. *Getting 100% Code Coverage Doesn't Eliminate Bugs*. Codepipes. 2017. `https://blog.codepipes.com/testing/code-coverage.html <https://blog.codepipes.com/testing/code-coverage.html>`__
 
