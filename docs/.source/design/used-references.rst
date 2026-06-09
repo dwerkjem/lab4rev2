@@ -6,10 +6,6 @@ Sources
    A curated source list for reStructuredText, OpenTelemetry,
    SQLAlchemy, and Python tooling.
 
-.. contents:: Source Categories
-   :depth: 2
-   :local:
-
 Quick Reference
 ---------------
 

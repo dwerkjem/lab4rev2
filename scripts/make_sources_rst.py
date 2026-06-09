@@ -196,11 +196,6 @@ def build_rst(sources: list[dict[str, Any]]) -> str:
     output += ".. epigraph::\n\n"
     output += "   A curated source list for reStructuredText, OpenTelemetry,\n"
     output += "   SQLAlchemy, and Python tooling.\n\n"
-
-    output += ".. contents:: Source Categories\n"
-    output += "   :depth: 2\n"
-    output += "   :local:\n\n"
-
     output += heading("Quick Reference", "-")
     output += "\n"
 
