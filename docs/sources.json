@@ -1,0 +1,120 @@
+[
+  {
+    "author": "Goodger, David",
+    "category": "reStructuredText and Sphinx",
+    "date": "2026",
+    "organization": "Docutils",
+    "source_type": "Specification",
+    "title": "reStructuredText Markup Specification",
+    "url": "https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html"
+  },
+  {
+    "category": "OpenTelemetry and Observability",
+    "date": "6 Feb. 2026",
+    "organization": "OneUptime | One Complete Observability Platform",
+    "source_type": "Article",
+    "title": "How to Set Up a Complete Observability Stack with OpenTelemetry",
+    "url": "https://oneuptime.com/blog/post/2026-02-06-complete-observability-stack-opentelemetry-open-source/view"
+  },
+  {
+    "accessed": "8 June 2026",
+    "author": "Sheppard, Kevin",
+    "category": "reStructuredText and Sphinx",
+    "source_type": "Documentation",
+    "title": "Restructuredtext Primer - Material for Sphinx",
+    "url": "https://bashtage.github.io/sphinx-material/basics.html"
+  },
+  {
+    "accessed": "8 June 2026",
+    "category": "OpenTelemetry and Observability",
+    "organization": "OpenTelemetry",
+    "source_type": "Website",
+    "title": "OpenTelemetry",
+    "url": "https://opentelemetry.io/"
+  },
+  {
+    "accessed": "8 June 2026",
+    "category": "OpenTelemetry and Observability",
+    "date": "22 May 2019",
+    "note": "Makefile referenced.",
+    "organization": "OpenTelemetry - CNCF",
+    "source_type": "GitHub Repository",
+    "title": "open-telemetry/opentelemetry-proto",
+    "url": "https://github.com/open-telemetry/opentelemetry-proto"
+  },
+  {
+    "accessed": "8 June 2026",
+    "category": "OpenTelemetry and Observability",
+    "organization": "OpenTelemetry",
+    "source_type": "Documentation",
+    "title": "Python OpenTelemetry",
+    "url": "https://opentelemetry.io/docs/languages/python/"
+  },
+  {
+    "accessed": "8 June 2026",
+    "category": "reStructuredText and Sphinx",
+    "organization": "Sphinx Documentation",
+    "source_type": "Documentation",
+    "title": "reStructuredText Primer - Sphinx Documentation",
+    "url": "https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html"
+  },
+  {
+    "accessed": "8 June 2026",
+    "category": "Python Libraries and Tooling",
+    "organization": "SQLAlchemy",
+    "source_type": "Website",
+    "title": "SQLAlchemy",
+    "url": "https://www.sqlalchemy.org"
+  },
+  {
+    "accessed": "8 June 2026",
+    "category": "Python Libraries and Tooling",
+    "organization": "SQLAlchemy Documentation",
+    "source_type": "Documentation",
+    "title": "SQLAlchemy ORM - SQLAlchemy 2.0 Documentation",
+    "url": "https://docs.sqlalchemy.org/en/20/orm/index.html"
+  },
+  {
+    "accessed": "8 June 2026",
+    "category": "Python Libraries and Tooling",
+    "organization": "Typer",
+    "source_type": "Documentation",
+    "title": "Typer",
+    "url": "https://typer.tiangolo.com/"
+  },
+  {
+    "accessed": "8 June 2026",
+    "category": "reStructuredText and Sphinx",
+    "organization": "reStructuredText Primer 0.0.1 Documentation",
+    "source_type": "Documentation",
+    "title": "Welcome to the reStructuredText Primer!",
+    "url": "https://djdeangelis.github.io/reST-primer/index.html"
+  },
+  {
+    "accessed": "8 June 2026",
+    "author": "Sam Newman",
+    "category": "Other",
+    "organization": "Modern Software Engineering",
+    "source_type": "Video",
+    "title": "100% Test Coverage is a LIE, Here’s Why...",
+    "url": "https://www.youtube.com/watch?v=p1xZ-Ni2t8Q"
+  },
+  {
+    "accessed": "9 June 2026",
+    "author": "Tim Ruscica",
+    "category": "Python Libraries and Tooling",
+    "date": "Mar 17, 2025",
+    "organization": "NeuralNine",
+    "source_type": "Video",
+    "title": "SQLAlchemy Crash Course - Master Databases in Python",
+    "url": "https://www.youtube.com/watch?v=529LYDgRTgQ&t"
+  },
+  {
+    "accessed": "9 June 2026",
+    "category": "OpenTelemetry and Observability",
+    "organization": "The Linux Foundation",
+    "source_type": "Documentation",
+    "title": "Prometheus Docs",
+    "url": "https://prometheus.io/docs/introduction/overview/"
+  }
+]

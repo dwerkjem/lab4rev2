@@ -8,3 +8,6 @@ pre-commit:
 
     pre-commit:
       run: uv run pre-commit run --all-files
+    
+    generate-sources:
+      run: python3 scripts/make_sources_rst.py
