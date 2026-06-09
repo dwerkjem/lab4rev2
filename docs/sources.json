@@ -47,7 +47,7 @@
     "category": "OpenTelemetry and Observability",
     "organization": "OpenTelemetry",
     "source_type": "Documentation",
-    "title": "Python",
+    "title": "Python OpenTelemetry",
     "url": "https://opentelemetry.io/docs/languages/python/"
   },
   {
@@ -98,5 +98,23 @@
     "source_type": "Video",
     "title": "100% Test Coverage is a LIE, Here’s Why...",
     "url": "https://www.youtube.com/watch?v=p1xZ-Ni2t8Q"
+  },
+  {
+    "accessed": "9 June 2026",
+    "author": "Tim Ruscica",
+    "category": "Python Libraries and Tooling",
+    "date": "Mar 17, 2025",
+    "organization": "NeuralNine",
+    "source_type": "Video",
+    "title": "SQLAlchemy Crash Course - Master Databases in Python",
+    "url": "https://www.youtube.com/watch?v=529LYDgRTgQ&t"
+  },
+  {
+    "accessed": "9 June 2026",
+    "category": "OpenTelemetry and Observability",
+    "organization": "The Linux Foundation",
+    "source_type": "Documentation",
+    "title": "Prometheus Docs",
+    "url": "https://prometheus.io/docs/introduction/overview/"
   }
 ]

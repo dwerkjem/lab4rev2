@@ -70,10 +70,15 @@ OpenTelemetry and Observability
      - 22 May 2019
      - `Open source <https://github.com/open-telemetry/opentelemetry-proto>`__
    * - 8
-     - **Python**
+     - **Python OpenTelemetry**
      - OpenTelemetry
      - 8 June 2026
      - `Open source <https://opentelemetry.io/docs/languages/python/>`__
+   * - 9
+     - **Prometheus Docs**
+     - The Linux Foundation
+     - 9 June 2026
+     - `Open source <https://prometheus.io/docs/introduction/overview/>`__
 
 Python Libraries and Tooling
 ----------------------------
@@ -87,21 +92,26 @@ Python Libraries and Tooling
      - Creator
      - Date
      - Link
-   * - 9
+   * - 10
      - **SQLAlchemy**
      - SQLAlchemy
      - 8 June 2026
      - `Open source <https://www.sqlalchemy.org>`__
-   * - 10
+   * - 11
      - **SQLAlchemy ORM - SQLAlchemy 2.0 Documentation**
      - SQLAlchemy Documentation
      - 8 June 2026
      - `Open source <https://docs.sqlalchemy.org/en/20/orm/index.html>`__
-   * - 11
+   * - 12
      - **Typer**
      - Typer
      - 8 June 2026
      - `Open source <https://typer.tiangolo.com/>`__
+   * - 13
+     - **SQLAlchemy Crash Course - Master Databases in Python**
+     - Tim Ruscica
+     - Mar 17, 2025
+     - `Open source <https://www.youtube.com/watch?v=529LYDgRTgQ&t>`__
 
 Other
 -----
@@ -115,7 +125,7 @@ Other
      - Creator
      - Date
      - Link
-   * - 12
+   * - 14
      - **100% Test Coverage is a LIE, Here’s Why...**
      - Sam Newman
      - 8 June 2026
@@ -167,7 +177,7 @@ Detailed Source Cards
    :URL: `https://github.com/open-telemetry/opentelemetry-proto <https://github.com/open-telemetry/opentelemetry-proto>`__
    :Note: Makefile referenced.
 
-.. admonition:: 6. Python
+.. admonition:: 6. Python OpenTelemetry
    :class: note
 
    :Type: Documentation
@@ -224,6 +234,24 @@ Detailed Source Cards
    :Accessed: 8 June 2026
    :URL: `https://www.youtube.com/watch?v=p1xZ-Ni2t8Q <https://www.youtube.com/watch?v=p1xZ-Ni2t8Q>`__
 
+.. admonition:: 13. SQLAlchemy Crash Course - Master Databases in Python
+   :class: note
+
+   :Type: Video
+   :Author: Tim Ruscica
+   :Organization: NeuralNine
+   :Date: Mar 17, 2025
+   :Accessed: 9 June 2026
+   :URL: `https://www.youtube.com/watch?v=529LYDgRTgQ&t <https://www.youtube.com/watch?v=529LYDgRTgQ&t>`__
+
+.. admonition:: 14. Prometheus Docs
+   :class: note
+
+   :Type: Documentation
+   :Organization: The Linux Foundation
+   :Accessed: 9 June 2026
+   :URL: `https://prometheus.io/docs/introduction/overview/ <https://prometheus.io/docs/introduction/overview/>`__
+
 Compact Works Cited
 -------------------
 
@@ -237,7 +265,7 @@ Compact Works Cited
 
 #. OpenTelemetry - CNCF. *open-telemetry/opentelemetry-proto*. 22 May 2019. Accessed 8 June 2026. `https://github.com/open-telemetry/opentelemetry-proto <https://github.com/open-telemetry/opentelemetry-proto>`__
 
-#. OpenTelemetry. *Python*. Accessed 8 June 2026. `https://opentelemetry.io/docs/languages/python/ <https://opentelemetry.io/docs/languages/python/>`__
+#. OpenTelemetry. *Python OpenTelemetry*. Accessed 8 June 2026. `https://opentelemetry.io/docs/languages/python/ <https://opentelemetry.io/docs/languages/python/>`__
 
 #. Sphinx Documentation. *reStructuredText Primer - Sphinx Documentation*. Accessed 8 June 2026. `https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`__
 
@@ -250,4 +278,8 @@ Compact Works Cited
 #. reStructuredText Primer 0.0.1 Documentation. *Welcome to the reStructuredText Primer!*. Accessed 8 June 2026. `https://djdeangelis.github.io/reST-primer/index.html <https://djdeangelis.github.io/reST-primer/index.html>`__
 
 #. Sam Newman. *100% Test Coverage is a LIE, Here’s Why...*. Modern Software Engineering. Accessed 8 June 2026. `https://www.youtube.com/watch?v=p1xZ-Ni2t8Q <https://www.youtube.com/watch?v=p1xZ-Ni2t8Q>`__
+
+#. Tim Ruscica. *SQLAlchemy Crash Course - Master Databases in Python*. NeuralNine. Mar 17, 2025. Accessed 9 June 2026. `https://www.youtube.com/watch?v=529LYDgRTgQ&t <https://www.youtube.com/watch?v=529LYDgRTgQ&t>`__
+
+#. The Linux Foundation. *Prometheus Docs*. Accessed 9 June 2026. `https://prometheus.io/docs/introduction/overview/ <https://prometheus.io/docs/introduction/overview/>`__
 
