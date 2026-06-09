@@ -16,13 +16,10 @@ See Also:
 from pathlib import Path
 from typing import Annotated
 
-from src.observability import track_command
+from src.observability import track_command, meter, logger
 
 import typer
 import sqlalchemy as sqla
-from prometheus_client import Counter
-
-APP_RUNS_TOTAL = Counter("app_runs_total", "Amount of times the project was ran.")
 
 app = typer.Typer()
 
@@ -37,6 +34,12 @@ MetricsPortOption = Annotated[
     int,
     typer.Option(help="Port to expose Prometheus metrics on."),
 ]
+
+program_runs_counter = meter.create_counter(
+    name="lab4.program.runs",
+    description="Number of times the program has been started.",
+    unit="1",
+)
 
 
 @track_command("create-engine")
@@ -94,8 +97,19 @@ def start_app(
     :param in_memory: If ``True``, use an in-memory SQLite database.
     :type in_memory: bool
     """
-    APP_RUNS_TOTAL.inc()
+    logger.info(
+        "starting application",
+        extra={"in_memory": in_memory},
+    )
+
+    program_runs_counter.add(1, {"in_memory": str(in_memory)})
+
     engine = create_engine(in_memory)
+
+    logger.info(
+        "database engine created",
+        extra={"database_url": str(engine.url)},
+    )
 
     _ = engine
 
