@@ -6,7 +6,7 @@ Description: A quick script to make the sources because I got tired of manually 
 import json
 from pathlib import Path
 from typing import Any
-
+import re
 
 SOURCE_JSON_PATH = Path("docs/sources.json")
 
@@ -17,6 +17,16 @@ OUTPUT_FILE = "docs/.source/design/used-references.rst"
 def rst_link(text: str, url: str) -> str:
     """Create an inline RST hyperlink."""
     return f"`{text} <{url}>`__"
+
+
+def rst_label(text: str, prefix: str = "sources") -> str:
+    """Create a stable explicit RST label from text."""
+
+    slug = text.lower()
+    slug = re.sub(r"[^a-z0-9]+", "-", slug)
+    slug = slug.strip("-")
+
+    return f".. _{prefix}-{slug}:\n\n"
 
 
 def heading(title: str, symbol: str = "=") -> str:
@@ -103,6 +113,7 @@ def format_table_for_category(
 
     output = ""
 
+    output += rst_label(category)
     output += heading(category, "-")
     output += "\n"
 
