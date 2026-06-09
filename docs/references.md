@@ -52,7 +52,11 @@ sqlite+pysqlite:///:memory:
 [SQLAlchemy Engine documentation](https://docs.sqlalchemy.org/en/20/core/connections.html#sqlalchemy.engine.Engine)
 [Typer documentation](https://typer.tiangolo.com/)
 
-### src.main.start_app(in_memory=False, metrics_port=8000)
+### src.main.start_app(in_memory=False)
 
+Start the CLI app.
+
+* **Parameters:**
+  **in_memory** (`bool`) – If `True`, use an in-memory SQLite database.
 * **Return type:**
   `None`

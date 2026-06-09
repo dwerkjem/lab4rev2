@@ -41,6 +41,7 @@ I intended to use various technologies throughout this project; some are very ne
   - ruff for Python linting and formatting running as a pre-commit script.
 - Sphinx to help build this beautiful documentation.
 - pytest as a testing suite.
+- Open Telemetry Protocol for observability and log management. <sup>[4](#otlp)</sup>
 
 ### Python Packages
 
@@ -55,3 +56,4 @@ I intended to use various technologies throughout this project; some are very ne
 * <a id='git'>**[1]**</a> Go to the [project repo](https://github.com/dwerkjem/lab4rev2) to see commit history.
 * <a id='scripts'>**[2]**</a> All scripts (in the scripts directory) are written for Unix systems and use the bash language.
 * <a id='sqlite'>**[3]**</a> See SQLite’s [home page](https://www.sqlite.org) for more details.
+* <a id='otlp'>**[4]**</a> You can visit their [web page](https://opentelemetry.io) for more details, but essentially it is a web interface that helps you view logs and trends in data. Probably unnecessary, but I was eager to learn how to use this.
