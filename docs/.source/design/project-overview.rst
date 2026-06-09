@@ -52,6 +52,7 @@ Editing/Developer Tools
 
 - `Sphinx` to help build this beautiful documentation.
 - `pytest` as a testing suite.
+- `Open Telemetry Protocol` for observability and log management. [#OTLP]_
 
 Python Packages
 ~~~~~~~~~~~~~~~
@@ -67,3 +68,4 @@ Python Packages
 ..  [#git] Go to the `project repo <https://github.com/dwerkjem/lab4rev2>`_ to see commit history.
 ..  [#scripts] All scripts (in the scripts directory) are written for Unix systems and use the bash language.
 ..  [#SQLite] See SQLite's `home page <https://www.sqlite.org>`_ for more details.
+..  [#OTLP] You can visit their `web page <https://opentelemetry.io>`_ for more details, but essentially it is a web interface that helps you view logs and trends in data. Probably unnecessary, but I was eager to learn how to use this.

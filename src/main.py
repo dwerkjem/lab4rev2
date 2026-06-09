@@ -26,8 +26,18 @@ app = typer.Typer()
 
 DB_PATH: Path = Path("database/data.db").absolute()
 
+InMemoryOption = Annotated[
+    bool,
+    typer.Option(help="Whether to start with database in memory or not."),
+]
 
-def create_engine(in_memory: bool) -> sqla.engine.Engine:
+MetricsPortOption = Annotated[
+    int,
+    typer.Option(help="Port to expose Prometheus metrics on."),
+]
+
+
+def create_engine(in_memory: InMemoryOption) -> sqla.engine.Engine:
     """Create a SQLite database engine.
 
     Creates either an in-memory SQLite database or, by default, a persistent
@@ -69,22 +79,17 @@ def create_engine(in_memory: bool) -> sqla.engine.Engine:
     return engine
 
 
-InMemoryOption = Annotated[
-    bool,
-    typer.Option(help="Whether to start with database in memory or not."),
-]
-
-MetricsPortOption = Annotated[
-    int,
-    typer.Option(help="Port to expose Prometheus metrics on."),
-]
-
-
 @app.command()
 def start_app(
     in_memory: InMemoryOption = False,
     metrics_port: MetricsPortOption = 8000,
 ) -> None:
+    """_summary_
+
+    Args:
+        in_memory (InMemoryOption, optional): _description_. Defaults to False.
+        metrics_port (MetricsPortOption, optional): _description_. Defaults to 8000.
+    """
     start_http_server(metrics_port)
     APP_RUNS_TOTAL.inc()
     create_engine(in_memory)

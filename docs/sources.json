@@ -1,0 +1,93 @@
+[
+  {
+    "title": "reStructuredText Markup Specification",
+    "author": "Goodger, David",
+    "date": "2026",
+    "organization": "Docutils",
+    "category": "reStructuredText and Sphinx",
+    "source_type": "Specification",
+    "url": "https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html"
+  },
+  {
+    "title": "How to Set Up a Complete Observability Stack with OpenTelemetry",
+    "organization": "OneUptime | One Complete Observability Platform",
+    "date": "6 Feb. 2026",
+    "category": "OpenTelemetry and Observability",
+    "source_type": "Article",
+    "url": "https://oneuptime.com/blog/post/2026-02-06-complete-observability-stack-opentelemetry-open-source/view"
+  },
+  {
+    "title": "Restructuredtext Primer - Material for Sphinx",
+    "author": "Sheppard, Kevin",
+    "accessed": "8 June 2026",
+    "category": "reStructuredText and Sphinx",
+    "source_type": "Documentation",
+    "url": "https://bashtage.github.io/sphinx-material/basics.html"
+  },
+  {
+    "title": "OpenTelemetry",
+    "organization": "OpenTelemetry",
+    "accessed": "8 June 2026",
+    "category": "OpenTelemetry and Observability",
+    "source_type": "Website",
+    "url": "https://opentelemetry.io/"
+  },
+  {
+    "title": "open-telemetry/opentelemetry-proto",
+    "organization": "OpenTelemetry - CNCF",
+    "date": "22 May 2019",
+    "accessed": "8 June 2026",
+    "category": "OpenTelemetry and Observability",
+    "source_type": "GitHub Repository",
+    "note": "Makefile referenced.",
+    "url": "https://github.com/open-telemetry/opentelemetry-proto"
+  },
+  {
+    "title": "Python",
+    "organization": "OpenTelemetry",
+    "accessed": "8 June 2026",
+    "category": "OpenTelemetry and Observability",
+    "source_type": "Documentation",
+    "url": "https://opentelemetry.io/docs/languages/python/"
+  },
+  {
+    "title": "reStructuredText Primer - Sphinx Documentation",
+    "organization": "Sphinx Documentation",
+    "accessed": "8 June 2026",
+    "category": "reStructuredText and Sphinx",
+    "source_type": "Documentation",
+    "url": "https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html"
+  },
+  {
+    "title": "SQLAlchemy",
+    "organization": "SQLAlchemy",
+    "accessed": "8 June 2026",
+    "category": "Python Libraries and Tooling",
+    "source_type": "Website",
+    "url": "https://www.sqlalchemy.org"
+  },
+  {
+    "title": "SQLAlchemy ORM - SQLAlchemy 2.0 Documentation",
+    "organization": "SQLAlchemy Documentation",
+    "accessed": "8 June 2026",
+    "category": "Python Libraries and Tooling",
+    "source_type": "Documentation",
+    "url": "https://docs.sqlalchemy.org/en/20/orm/index.html"
+  },
+  {
+    "title": "Typer",
+    "organization": "Typer",
+    "accessed": "8 June 2026",
+    "category": "Python Libraries and Tooling",
+    "source_type": "Documentation",
+    "url": "https://typer.tiangolo.com/"
+  },
+  {
+    "title": "Welcome to the reStructuredText Primer!",
+    "organization": "reStructuredText Primer 0.0.1 Documentation",
+    "accessed": "8 June 2026",
+    "category": "reStructuredText and Sphinx",
+    "source_type": "Documentation",
+    "url": "https://djdeangelis.github.io/reST-primer/index.html"
+  }
+]
