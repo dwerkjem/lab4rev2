@@ -79,17 +79,8 @@ def format_source_card(number: int, source: dict[str, Any]) -> str:
     title = source["title"]
     url = source["url"]
 
-    category = str(source.get("category", "")).lower()
-
-    if "opentelemetry" in category or "observability" in category:
-        card_class = "important"
-    elif "python" in category or "tooling" in category:
-        card_class = "hint"
-    else:
-        card_class = "note"
-
     card = f".. admonition:: {number}. {title}\n"
-    card += f"   :class: {card_class}\n\n"
+    card += "   :class: note\n\n"
 
     card += field_line("Type", source.get("source_type"))
     card += field_line("Author", source.get("author"))

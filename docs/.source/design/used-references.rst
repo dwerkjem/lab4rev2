@@ -134,7 +134,7 @@ Detailed Source Cards
    :URL: `https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html>`__
 
 .. admonition:: 2. How to Set Up a Complete Observability Stack with OpenTelemetry
-   :class: important
+   :class: note
 
    :Type: Article
    :Organization: OneUptime | One Complete Observability Platform
@@ -150,7 +150,7 @@ Detailed Source Cards
    :URL: `https://bashtage.github.io/sphinx-material/basics.html <https://bashtage.github.io/sphinx-material/basics.html>`__
 
 .. admonition:: 4. OpenTelemetry
-   :class: important
+   :class: note
 
    :Type: Website
    :Organization: OpenTelemetry
@@ -158,7 +158,7 @@ Detailed Source Cards
    :URL: `https://opentelemetry.io/ <https://opentelemetry.io/>`__
 
 .. admonition:: 5. open-telemetry/opentelemetry-proto
-   :class: important
+   :class: note
 
    :Type: GitHub Repository
    :Organization: OpenTelemetry - CNCF
@@ -168,7 +168,7 @@ Detailed Source Cards
    :Note: Makefile referenced.
 
 .. admonition:: 6. Python
-   :class: important
+   :class: note
 
    :Type: Documentation
    :Organization: OpenTelemetry
@@ -184,7 +184,7 @@ Detailed Source Cards
    :URL: `https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`__
 
 .. admonition:: 8. SQLAlchemy
-   :class: hint
+   :class: note
 
    :Type: Website
    :Organization: SQLAlchemy
@@ -192,7 +192,7 @@ Detailed Source Cards
    :URL: `https://www.sqlalchemy.org <https://www.sqlalchemy.org>`__
 
 .. admonition:: 9. SQLAlchemy ORM - SQLAlchemy 2.0 Documentation
-   :class: hint
+   :class: note
 
    :Type: Documentation
    :Organization: SQLAlchemy Documentation
@@ -200,7 +200,7 @@ Detailed Source Cards
    :URL: `https://docs.sqlalchemy.org/en/20/orm/index.html <https://docs.sqlalchemy.org/en/20/orm/index.html>`__
 
 .. admonition:: 10. Typer
-   :class: hint
+   :class: note
 
    :Type: Documentation
    :Organization: Typer
