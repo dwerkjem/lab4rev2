@@ -24,6 +24,7 @@ from opentelemetry.sdk._logs.export import BatchLogRecordProcessor
 from opentelemetry.sdk.metrics import MeterProvider
 from opentelemetry.sdk.metrics.export import PeriodicExportingMetricReader
 from opentelemetry.sdk.resources import Resource
+from pythonjsonlogger.json import JsonFormatter
 
 from src import __version__
 
@@ -52,8 +53,20 @@ resource = Resource.create(
 
 def configure_logging() -> logging.Logger:
     """Configure and return the application logger."""
+
     logger = logging.getLogger(SERVICE_NAME)
     logger.setLevel(logging.INFO)
+
+    formatter_stream = "%(asctime)s %(levelname)s: %(message)s"
+    stream_handler = logging.StreamHandler()
+    stream_handler.setFormatter(formatter_stream)
+    stream_handler.setLevel(logging.WARNING)
+    logger.addHandler(stream_handler)
+
+    formatter_json = JsonFormatter("{message}{asctime}{exc_info}", style="{")
+    file_handler = logging.FileHandler("logs/app.log")
+    file_handler.setFormatter(formatter_json)
+    logger.addHandler(file_handler)
 
     if otlp_is_available:
         logger_provider = LoggerProvider(resource=resource)
