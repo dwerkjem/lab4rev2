@@ -19,6 +19,7 @@ The design process has been documented quite thoroughly, but not all decisions a
   * [OpenTelemetry and Observability](used-references.md#opentelemetry-and-observability)
   * [Python Libraries and Tooling](used-references.md#python-libraries-and-tooling)
   * [Software Testing and Code Coverage](used-references.md#software-testing-and-code-coverage)
+  * [Logging](used-references.md#logging)
   * [Detailed Source Cards](used-references.md#detailed-source-cards)
   * [Compact Works Cited](used-references.md#compact-works-cited)
 * [Style Guide](style-guide.md)

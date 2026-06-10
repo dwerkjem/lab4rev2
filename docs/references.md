@@ -77,14 +77,17 @@ the `track_command` decorator for tracking CLI command execution.
 
 ### src.observability.configure_logging()
 
-Configures and returns the app logger.
+Configure and return the application logger.
 
 * **Return type:**
   `Logger`
 
 ### src.observability.configure_metrics()
 
-Configures the metrics
+Configure and return the application metrics meter.
+
+* **Return type:**
+  `Meter`
 
 ### src.observability.track_command(command_name)
 
