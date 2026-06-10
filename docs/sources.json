@@ -118,15 +118,16 @@
     "url": "https://prometheus.io/docs/introduction/overview/"
   },
   {
-    "url":"https://qa.tech/blog/why-100-test-coverage-isnt-the-goal",
-    "title": "Why 100% Test Coverage Isn’t the Goal",
+    "accessed": "9 June 2026",
     "author": "Daniel Mauno Pettersson",
-    "accessed":"9 June 2026",
-    "category":"Software Testing and Code Coverage",
-    "date":"March 4, 2026",
-    "organization":"QA.tech"
+    "category": "Software Testing and Code Coverage",
+    "date": "March 4, 2026",
+    "organization": "QA.tech",
+    "title": "Why 100% Test Coverage Isn’t the Goal",
+    "url": "https://qa.tech/blog/why-100-test-coverage-isnt-the-goal"
   },
   {
+    "accessed": "9 June 2026",
     "author": "Fowler, Martin",
     "category": "Software Testing and Code Coverage",
     "date": "17 Apr. 2012",
@@ -136,6 +137,7 @@
     "url": "https://martinfowler.com/bliki/TestCoverage.html"
   },
   {
+    "accessed": "9 June 2026",
     "author": "Inozemtseva, Laura; Holmes, Reid",
     "category": "Software Testing and Code Coverage",
     "date": "2014",
@@ -145,6 +147,7 @@
     "url": "https://dl.acm.org/doi/10.1145/2568225.2568271"
   },
   {
+    "accessed": "9 June 2026",
     "author": "Kochhar, Pavneet Singh; Lo, David; Lawall, Julia; Nagappan, Nachiappan",
     "category": "Software Testing and Code Coverage",
     "date": "2017",
@@ -154,6 +157,7 @@
     "url": "https://ink.library.smu.edu.sg/sis_research/3838/"
   },
   {
+    "accessed": "9 June 2026",
     "author": "Hossain, Soneya Binta; Dwyer, Matthew B.",
     "category": "Software Testing and Code Coverage",
     "date": "2022",
@@ -163,6 +167,7 @@
     "url": "https://arxiv.org/abs/2212.06118"
   },
   {
+    "accessed": "9 June 2026",
     "category": "Software Testing and Code Coverage",
     "date": "2024",
     "organization": "web.dev",
@@ -171,6 +176,7 @@
     "url": "https://web.dev/articles/ta-code-coverage"
   },
   {
+    "accessed": "10 June 2026",
     "author": "Kapelonis, Kostis",
     "category": "Software Testing and Code Coverage",
     "date": "2017",
@@ -178,5 +184,23 @@
     "source_type": "Technical Article",
     "title": "Getting 100% Code Coverage Doesn't Eliminate Bugs",
     "url": "https://blog.codepipes.com/testing/code-coverage.html"
+  },
+  {
+    "accessed": "10 June 2026",
+    "category": "Python Libraries and Tooling",
+    "date": "Jun 10, 2026",
+    "organization": "Python Software Foundation",
+    "source_type": "Documentation",
+    "title": "socket — Low-level networking interface",
+    "url": "https://docs.python.org/3/library/socket.html"
+  },
+  {
+    "accessed": "10 June 2026",
+    "category": "Python Libraries and Tooling",
+    "date": "2026",
+    "organization": "W3Schools",
+    "source_type": "Website",
+    "title": "Python Requests post() Method",
+    "url": "https://www.w3schools.com/PYTHON/ref_requests_post.asp"
   }
 ]

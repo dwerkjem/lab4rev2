@@ -7,7 +7,7 @@ Problem Statement
 The project must meet all :ref:`requirements <program-requirements>`. Besides those requirements, I have set some personal goals as well:
 
 #. Achieve 100% test coverage.
-  I have done expensive research [1]_ on this and have concluded that it does not guarantee code standards but it also does not hurt code quality and is probably to make you think more about your code.
+  I have done expensive research [1]_ on this and have concluded that it does not guarantee code standards, but it also does not hurt code quality and is probably to make you think more about your code.
 
   .. admonition:: Limitation of Testing
 

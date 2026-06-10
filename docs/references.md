@@ -60,3 +60,50 @@ Start the CLI app.
   **in_memory** (`bool`) – If `True`, use an in-memory SQLite database.
 * **Return type:**
   `None`
+
+<a id="module-src.observability"></a>
+
+Sets up logging and metrics for the application.
+
+* **author:**
+  Derek R. Neilson
+* **var logger:**
+  Application logger configured for OpenTelemetry.
+* **var meter:**
+  OpenTelemetry meter used to create counters and histograms.
+
+This module configures OpenTelemetry logging and metrics, then exposes
+the `track_command` decorator for tracking CLI command execution.
+
+### src.observability.configure_logging()
+
+Configures and returns the app logger.
+
+* **Return type:**
+  `Logger`
+
+### src.observability.configure_metrics()
+
+Configures the metrics
+
+### src.observability.track_command(command_name)
+
+Track command execution with logs and metrics.
+
+The wrapped function records the number of command runs, active operations,
+errors, and command duration.
+
+* **Parameters:**
+  **command_name** (`str`) – Name of the command being tracked. Format not required but should be name-of-command
+* **Return type:**
+  `Callable`[[`TypeVar`(`F`, bound= `Callable`[`...`, `Any`])], `TypeVar`(`F`, bound= `Callable`[`...`, `Any`])]
+
+### Example
+
+```python
+from src.observability import logger, track_command
+
+@track_command("some-command")
+def some_command():
+    logger.info("Command executed")
+```

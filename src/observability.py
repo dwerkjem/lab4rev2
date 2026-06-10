@@ -14,7 +14,8 @@ import time
 from collections.abc import Callable
 from functools import wraps
 from typing import Any, TypeVar, cast
-
+import requests
+from opentelemetry.metrics import Meter
 from opentelemetry import _logs, metrics
 from opentelemetry.exporter.otlp.proto.http._log_exporter import OTLPLogExporter
 from opentelemetry.exporter.otlp.proto.http.metric_exporter import OTLPMetricExporter
@@ -28,6 +29,18 @@ from src import __version__
 
 APP_VERSION = __version__
 SERVICE_NAME = "fountain-view-hall"
+OTLP_URL = "http://localhost:4318"
+
+try:
+    response = requests.post(
+        f"{OTLP_URL}/v1/logs",
+        data=b"",  # send empty string as bytes
+        headers={"Content-Type": "application/x-protobuf"},
+    )
+    otlp_is_available = response.status_code in {200, 400, 405, 415}
+except requests.RequestException:
+    otlp_is_available = False
+
 
 resource = Resource.create(
     {
@@ -38,49 +51,53 @@ resource = Resource.create(
 
 
 def configure_logging() -> logging.Logger:
-    """Configures and returns the app logger."""
-
-    logger_provider = LoggerProvider(resource=resource)
-    _logs.set_logger_provider(logger_provider)
-
-    log_exporter = OTLPLogExporter(
-        endpoint="http://localhost:4318/v1/logs",
-    )
-
-    logger_provider.add_log_record_processor(BatchLogRecordProcessor(log_exporter))
-
-    otel_handler = LoggingHandler(
-        level=logging.INFO,
-        logger_provider=logger_provider,
-    )
-
+    """Configure and return the application logger."""
     logger = logging.getLogger(SERVICE_NAME)
     logger.setLevel(logging.INFO)
 
-    if not any(isinstance(handler, LoggingHandler) for handler in logger.handlers):
-        logger.addHandler(otel_handler)
+    if otlp_is_available:
+        logger_provider = LoggerProvider(resource=resource)
+        _logs.set_logger_provider(logger_provider)
 
-    logger.propagate = False
+        log_exporter = OTLPLogExporter(
+            endpoint=OTLP_URL + "/v1/logs",
+        )
+
+        logger_provider.add_log_record_processor(BatchLogRecordProcessor(log_exporter))
+
+        otel_handler = LoggingHandler(
+            level=logging.INFO,
+            logger_provider=logger_provider,
+        )
+
+        if not any(isinstance(handler, LoggingHandler) for handler in logger.handlers):
+            logger.addHandler(otel_handler)
+
+        logger.propagate = False
+    else:
+        logger.addHandler(logging.StreamHandler())
 
     return logger
 
 
-def configure_metrics():
-    metric_exporter = OTLPMetricExporter(
-        endpoint="http://localhost:4318/v1/metrics",
-    )
+def configure_metrics() -> Meter:
+    """Configure and return the application metrics meter."""
+    if otlp_is_available:
+        metric_exporter = OTLPMetricExporter(
+            endpoint=OTLP_URL + "/v1/metrics",
+        )
 
-    metric_reader = PeriodicExportingMetricReader(
-        metric_exporter,
-        export_interval_millis=5_000,
-    )
+        metric_reader = PeriodicExportingMetricReader(
+            metric_exporter,
+            export_interval_millis=5_000,
+        )
 
-    meter_provider = MeterProvider(
-        resource=resource,
-        metric_readers=[metric_reader],
-    )
+        meter_provider = MeterProvider(
+            resource=resource,
+            metric_readers=[metric_reader],
+        )
 
-    metrics.set_meter_provider(meter_provider)
+        metrics.set_meter_provider(meter_provider)
 
     return metrics.get_meter(SERVICE_NAME, APP_VERSION)
 
@@ -137,9 +154,9 @@ def track_command(command_name: str) -> Callable[[F], F]:
 
             from src.observability import logger, track_command
 
-            @track_command("create-booking")
-            def create_booking():
-                logger.info("Creating booking")
+            @track_command("some-command")
+            def some_command():
+                logger.info("Command executed")
     """
 
     def decorator(func: F) -> F:
