@@ -1,5 +1,6 @@
 [
   {
+    "accessed": "7 June 2026",
     "author": "Goodger, David",
     "category": "reStructuredText and Sphinx",
     "date": "2026",
@@ -9,6 +10,7 @@
     "url": "https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html"
   },
   {
+    "accessed": "7 June 2026",
     "category": "OpenTelemetry and Observability",
     "date": "6 Feb. 2026",
     "organization": "OneUptime | One Complete Observability Platform",
@@ -202,5 +204,33 @@
     "source_type": "Website",
     "title": "Python Requests post() Method",
     "url": "https://www.w3schools.com/PYTHON/ref_requests_post.asp"
+  },
+  {
+    "accessed": "10 June 2026",
+    "author": "Tim van Cann",
+    "category": "Logging",
+    "date": "Aug 22, 2024",
+    "note": "Was very helpful.",
+    "organization": "Timnology",
+    "source_type": "Video",
+    "title": "Python Logging: Master the Module in Under 10 Minutes",
+    "url": "https://www.youtube.com/watch?v=A3FkYRN9qog"
+  },
+  {
+    "accessed": "10 June 2026",
+    "author": "Nicholas Hairs",
+    "category": "Logging",
+    "organization": "Python JSON Logger",
+    "source_type": "Documentation",
+    "title": "Python JSON Logger",
+    "url": "https://nhairs.github.io/python-json-logger/"
+  },
+  {
+    "accessed": "10 June 2026",
+    "category": "Logging",
+    "organization": "GeeksforGeeks",
+    "source_type": "Article",
+    "title": "Logging in Python",
+    "url": "https://www.geeksforgeeks.org/python/logging-in-python/"
   }
 ]

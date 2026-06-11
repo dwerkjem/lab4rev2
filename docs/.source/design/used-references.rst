@@ -184,6 +184,36 @@ Software Testing and Code Coverage
      - 2017
      - `Open source <https://blog.codepipes.com/testing/code-coverage.html>`__
 
+.. _sources-logging:
+
+Logging
+-------
+
+.. list-table::
+   :widths: 5 35 20 20 20
+   :header-rows: 1
+
+   * - #
+     - Source
+     - Creator
+     - Date
+     - Link
+   * - 24
+     - **Python Logging: Master the Module in Under 10 Minutes**
+     - Tim van Cann
+     - Aug 22, 2024
+     - `Open source <https://www.youtube.com/watch?v=A3FkYRN9qog>`__
+   * - 25
+     - **Python JSON Logger**
+     - Nicholas Hairs
+     - 10 June 2026
+     - `Open source <https://nhairs.github.io/python-json-logger/>`__
+   * - 26
+     - **Logging in Python**
+     - GeeksforGeeks
+     - 10 June 2026
+     - `Open source <https://www.geeksforgeeks.org/python/logging-in-python/>`__
+
 Detailed Source Cards
 ---------------------
 
@@ -194,6 +224,7 @@ Detailed Source Cards
    :Author: Goodger, David
    :Organization: Docutils
    :Date: 2026
+   :Accessed: 7 June 2026
    :URL: `https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html>`__
 
 .. admonition:: 2. How to Set Up a Complete Observability Stack with OpenTelemetry
@@ -202,6 +233,7 @@ Detailed Source Cards
    :Type: Article
    :Organization: OneUptime | One Complete Observability Platform
    :Date: 6 Feb. 2026
+   :Accessed: 7 June 2026
    :URL: `https://oneuptime.com/blog/post/2026-02-06-complete-observability-stack-opentelemetry-open-source/view <https://oneuptime.com/blog/post/2026-02-06-complete-observability-stack-opentelemetry-open-source/view>`__
 
 .. admonition:: 3. Restructuredtext Primer - Material for Sphinx
@@ -391,12 +423,40 @@ Detailed Source Cards
    :Accessed: 10 June 2026
    :URL: `https://www.w3schools.com/PYTHON/ref_requests_post.asp <https://www.w3schools.com/PYTHON/ref_requests_post.asp>`__
 
+.. admonition:: 24. Python Logging: Master the Module in Under 10 Minutes
+   :class: note
+
+   :Type: Video
+   :Author: Tim van Cann
+   :Organization: Timnology
+   :Date: Aug 22, 2024
+   :Accessed: 10 June 2026
+   :URL: `https://www.youtube.com/watch?v=A3FkYRN9qog <https://www.youtube.com/watch?v=A3FkYRN9qog>`__
+   :Note: Was very helpful.
+
+.. admonition:: 25. Python JSON Logger
+   :class: note
+
+   :Type: Documentation
+   :Author: Nicholas Hairs
+   :Organization: Python JSON Logger
+   :Accessed: 10 June 2026
+   :URL: `https://nhairs.github.io/python-json-logger/ <https://nhairs.github.io/python-json-logger/>`__
+
+.. admonition:: 26. Logging in Python
+   :class: note
+
+   :Type: Article
+   :Organization: GeeksforGeeks
+   :Accessed: 10 June 2026
+   :URL: `https://www.geeksforgeeks.org/python/logging-in-python/ <https://www.geeksforgeeks.org/python/logging-in-python/>`__
+
 Compact Works Cited
 -------------------
 
-#. Goodger, David. *reStructuredText Markup Specification*. Docutils. 2026. `https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html>`__
+#. Goodger, David. *reStructuredText Markup Specification*. Docutils. 2026. Accessed 7 June 2026. `https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html>`__
 
-#. OneUptime | One Complete Observability Platform. *How to Set Up a Complete Observability Stack with OpenTelemetry*. 6 Feb. 2026. `https://oneuptime.com/blog/post/2026-02-06-complete-observability-stack-opentelemetry-open-source/view <https://oneuptime.com/blog/post/2026-02-06-complete-observability-stack-opentelemetry-open-source/view>`__
+#. OneUptime | One Complete Observability Platform. *How to Set Up a Complete Observability Stack with OpenTelemetry*. 6 Feb. 2026. Accessed 7 June 2026. `https://oneuptime.com/blog/post/2026-02-06-complete-observability-stack-opentelemetry-open-source/view <https://oneuptime.com/blog/post/2026-02-06-complete-observability-stack-opentelemetry-open-source/view>`__
 
 #. Sheppard, Kevin. *Restructuredtext Primer - Material for Sphinx*. Accessed 8 June 2026. `https://bashtage.github.io/sphinx-material/basics.html <https://bashtage.github.io/sphinx-material/basics.html>`__
 
@@ -439,4 +499,10 @@ Compact Works Cited
 #. Python Software Foundation. *socket — Low-level networking interface*. Jun 10, 2026. Accessed 10 June 2026. `https://docs.python.org/3/library/socket.html <https://docs.python.org/3/library/socket.html>`__
 
 #. W3Schools. *Python Requests post() Method*. 2026. Accessed 10 June 2026. `https://www.w3schools.com/PYTHON/ref_requests_post.asp <https://www.w3schools.com/PYTHON/ref_requests_post.asp>`__
+
+#. Tim van Cann. *Python Logging: Master the Module in Under 10 Minutes*. Timnology. Aug 22, 2024. Accessed 10 June 2026. `https://www.youtube.com/watch?v=A3FkYRN9qog <https://www.youtube.com/watch?v=A3FkYRN9qog>`__
+
+#. Nicholas Hairs. *Python JSON Logger*. Python JSON Logger. Accessed 10 June 2026. `https://nhairs.github.io/python-json-logger/ <https://nhairs.github.io/python-json-logger/>`__
+
+#. GeeksforGeeks. *Logging in Python*. Accessed 10 June 2026. `https://www.geeksforgeeks.org/python/logging-in-python/ <https://www.geeksforgeeks.org/python/logging-in-python/>`__
 

@@ -32,6 +32,7 @@ Fountain View Hall’s management tool, `fvh-manager` is used to manage reservat
     * [OpenTelemetry and Observability](design/used-references.md#opentelemetry-and-observability)
     * [Python Libraries and Tooling](design/used-references.md#python-libraries-and-tooling)
     * [Software Testing and Code Coverage](design/used-references.md#software-testing-and-code-coverage)
+    * [Logging](design/used-references.md#logging)
     * [Detailed Source Cards](design/used-references.md#detailed-source-cards)
     * [Compact Works Cited](design/used-references.md#compact-works-cited)
   * [Style Guide](design/style-guide.md)

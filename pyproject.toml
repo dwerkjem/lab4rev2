@@ -9,6 +9,7 @@ dependencies = [
     "opentelemetry-exporter-otlp>=1.42.1",
     "opentelemetry-sdk>=1.42.1",
     "prometheus-client>=0.25.0",
+    "python-json-logger>=4.1.0",
     "sqlalchemy>=2.0.50",
     "typer>=0.26.7",
 ]
