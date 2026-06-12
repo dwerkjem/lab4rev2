@@ -1,13 +1,8 @@
 pre-commit:
   commands:
-    generate-typer-completions:
-      run: scripts/generate_completions.sh
 
     uv-pip-freeze:
       run: uv pip freeze --exclude-editable > requirements.txt && git add requirements.txt
 
-    generate-sources:
-      run: python3 scripts/make_sources_rst.py
-    
     pre-commit:
       run: uv run pre-commit run --all-files
