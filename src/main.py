@@ -8,8 +8,10 @@ def main():
     total_events = 0
     total_guests = 0
     total_projected_revenue = 0
+
     LARGE_GUEST_AMOUNT = 60
     LARGE_GUEST_DISCOUNT_PERCENT = 0.80  # 20 percent discount
+
     while True:
         guest_count = -1
         projected_revenue = -1
@@ -48,6 +50,7 @@ Event Revenue Summary
 Total events: {total_events}
 Total guest count: {total_guests}
 Total projected revenue: {total_projected_revenue:,.2f}
+Average revenue {total_projected_revenue / total_events}
 """)
 
 
