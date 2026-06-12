@@ -1,6 +1,6 @@
 """
 Name: Derek R. Neilson
-Description: Fountain View Hall's
+Description: Fountain View Hall's event attendance & revenue tracker.
 """
 
 

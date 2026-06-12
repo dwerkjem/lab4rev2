@@ -5,7 +5,7 @@ description = "This is a cli for Fountain View Hall"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-
+    "holidays>=0.98",
 ]
 
 [tool.pytest.ini_options]
@@ -40,7 +40,3 @@ fvh = "src.main:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
-
-[[tool.pydoc-markdown.loaders]]
-type = "python"
-search_path = [ "src" ]

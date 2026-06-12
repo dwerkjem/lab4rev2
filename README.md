@@ -24,3 +24,7 @@ uv run fvh
 ## Tests
 
 I am using `pytest` to test most things run `uv run pytest` to launch the testing suite.
+
+## Pseudocode
+
+To view pseudocode go to the [pseudocode markdown](docs/Pseudocode.md) page
